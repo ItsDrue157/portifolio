@@ -1,0 +1,175 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("system/video/web.mp4") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.navegacao-links{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.bloco-centralizado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+
+
+
+.titulo{
+    text-align: center;
+    padding-top: 5%;
+    color: #f8efed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.paragrafo-biografia{
+    text-align: center;
+    font-size: 20px;
+    color: #f8efed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}   
+
+
+.navegacao{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+.navegacao-links{
+    background: #f8efed;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/*sobremim*/
+
+.titulo-sobremim{
+    text-align: center;
+    padding-top: 5%;
+    color: #f8efed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+.biografia-sobremim {
+    text-align: center;
+    font-size: 18px;
+    color: #f8efed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+/*projetos*/
+
+.conteudo-centralizado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.card {
+    padding: 10%; 
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px auto; 
+    color: #f8efed;
+    text-align: center; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.card__titulo {
+    font-size: 24px; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+
+
+.card__texto {
+    font-size: 16px; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    line-height: 1.5; 
+    color: #f8efed;
+    margin-bottom: 10px; 
+}
+
+.card__link {
+    font-size: 14px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #f8efed;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#video-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 3; 
+  filter: blur(3px);
+}
+
