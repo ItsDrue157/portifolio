@@ -95,16 +95,21 @@ body {
 
 /*projetos*/
 
-.conteudo-centralizado {
+.bloco-centralizado {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
+    justify-content: left;
+    align-items: left;
+    padding-top: 1%;
 }
-
+.card-bloco{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    gap: px;
+}
 .card {
-    padding: 10%; 
+    padding: 2%;
     width: 400px;
     border-radius: 10px;
     margin: 20px auto; 
@@ -138,6 +143,24 @@ body {
     text-decoration: none;
     margin-top: 10px;
     display: block; 
+}
+
+
+/*contato*/
+.botao-contato{
+    background: #f8efed;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 
